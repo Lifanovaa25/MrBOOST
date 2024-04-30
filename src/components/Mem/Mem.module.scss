@@ -8,6 +8,7 @@
     padding-left: 68px;
     padding-right: 68px;
     padding-bottom: 80px;
+    margin: 0 auto;
 
     @media (max-width:768px) {
         padding: 13px;
@@ -37,7 +38,10 @@
     }
 }
 
-.mems_img {
-    max-width: 405px;
-    margin: 0 auto;
+@media (max-width:768px) {
+
+    .mems_img {
+        max-width: 405px;
+        margin: 0 auto;
+    }
 }

@@ -1,6 +1,7 @@
 .blue {
     background: #004aad;
     overflow: hidden;
+    position: relative;
 
     @media (max-width:768px) {
 
@@ -21,6 +22,7 @@
 .container {
     padding-left: 40px;
     padding-right: 116px;
+    padding-bottom: 44px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -120,7 +122,11 @@ main {
     align-items: center;
     justify-content: center;
     gap: 10px;
-
+    padding-bottom: 44px;
+@media (min-width:769px) and (max-width:1661px) {
+    padding-right: 320px;
+    
+}
     @media (max-width:768px) {
         gap: 7px;
         margin-bottom: 65px;
@@ -175,11 +181,12 @@ main {
 .title_img {
     width: 232px;
     height: 474px;
-    position: relative;
-
+    position: absolute;
+    bottom: 0;
+    right: 0;
     .mr {
         position: absolute;
-        right: -78%;
+        right: initial;right: 0;
     }
 
     @media (max-width:768px) {
@@ -187,6 +194,16 @@ main {
         border-radius: 28px;
         width: 75px;
         height: 75px;
+
+        .youtube_btn {
+            width: 68px;
+            height: 53px;
+
+            .img {
+                max-width: 68px;
+                height: 53px;
+            }
+        }
 
         .mr {
             position: relative;
@@ -207,16 +224,6 @@ main {
 
 .nav_m {
     display: none;
-}
-
-.youtube_btn {
-    width: 68px;
-    height: 53px;
-
-    .img {
-        max-width: 68px;
-        height: 53px;
-    }
 }
 
 .mob {

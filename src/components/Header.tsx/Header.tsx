@@ -44,7 +44,7 @@ const Header = () => {
                         <div className={s.line}></div>
                     </div>
                 </div>
-                <div className={s.title_img}>
+                <div className={[s.title_img,s.mob].join(' ')}>
                     <img src={mr} className={s.mr} alt="$MrBOOST" />
                 </div>
 
@@ -57,6 +57,9 @@ const Header = () => {
                 </div>
                 <div className={s.line}></div>
             </div>
+            <div className={[s.title_img,s.desc].join(' ')}>
+                    <img src={mr} className={s.mr} alt="$MrBOOST" />
+                </div>
         </section>
     )
 }
