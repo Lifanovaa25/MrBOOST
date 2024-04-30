@@ -1,0 +1,108 @@
+.white {
+    background: #fff;
+    padding-top: 35px;
+    padding-bottom: 108px;
+}
+
+.container {
+    padding-left: 156px;
+    padding-right: 72px;
+
+    @media (max-width:768px) {
+        padding: 40px 23px;
+        padding-bottom: 90px;
+    }
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 61px;
+
+    @media (max-width:768px) {
+        flex-direction: column;
+        gap: 12px;
+    }
+}
+
+.circle_img {
+    min-width: 288px;
+    width: 288px;
+    height: 293px;
+    overflow: hidden;
+    border-radius: 100%;
+    background: #004aad;
+    border: 1px solid #000;
+
+    @media (max-width:768px) {
+        width: 125px;
+        min-width: 125px;
+        height: 127px;
+        min-height: 127px;
+
+        .img {
+            height: 100%;
+        }
+    }
+
+    .img {
+        width: 100%;
+        padding-top: 28px;
+        padding-right: 22px;
+    }
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 52px;
+
+    @media (max-width:768px) {
+        gap: 13px;
+    }
+
+    .title {
+        font-family: "Just Me Again Down Here", sans-serif;
+        font-weight: 400;
+        font-size: 83px;
+        text-align: center;
+        color: #000;
+
+        @media (max-width:768px) {
+            font-family: "Just Me Again Down Here", sans-serif;
+            font-weight: 400;
+            font-size: 60px;
+            text-align: center;
+            color: #000;
+        }
+    }
+
+    .p {
+        font-family: "Long Cang", sans-serif;
+        font-weight: 400;
+        font-size: 36px;
+        text-align: center;
+        color: #000;
+
+        @media (max-width:768px) {
+
+            font-family: "Long Cang", sans-serif;
+            font-weight: 400;
+            font-size: 25px;
+            text-align: center;
+            color: #000;
+        }
+
+        .text_link {
+            text-decoration: underline;
+            text-decoration-skip-ink: none;
+
+            &:hover {
+                filter: contrast(.8)
+            }
+        }
+    }
+}

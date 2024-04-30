@@ -1,0 +1,22 @@
+.footer {
+    padding: 56px 70px;
+    background: #000;
+
+    font-family: "Just Me Again Down Here", sans-serif;
+    font-weight: 400;
+    font-size: 44px;
+    text-align: center;
+    color: #fff;
+    line-height: 200%;
+
+    @media (max-width:768px) {
+        font-family: "Just Me Again Down Here", sans-serif;
+        font-weight: 400;
+        font-size: 30px;
+        text-align: center;
+        color: #fff;
+        padding: 37px;
+    line-height: 120%;
+
+    }
+}

@@ -1,0 +1,266 @@
+.blue {
+    background: #004aad;
+    overflow: hidden;
+
+    @media (max-width:768px) {
+
+        padding-bottom: 53px;
+    }
+}
+
+.header {
+    padding-top: 44px;
+    padding-bottom: 32px;
+
+    @media (max-width:768px) {
+        padding-bottom: 53px;
+        padding-top: 38px;
+    }
+}
+
+.container {
+    padding-left: 40px;
+    padding-right: 116px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    @media (max-width:768px) {
+        padding-left: 43px;
+        padding-right: 43px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+.logo {
+    font-family: "Just Me Again Down Here", sans-serif;
+    font-weight: 400;
+    font-size: 83px;
+    text-align: center;
+    color: #fff;
+    line-height: 150%;
+
+    @media (max-width:768px) {
+        font-family: "Just Me Again Down Here", sans-serif;
+        font-weight: 400;
+        font-size: 83px;
+        text-align: center;
+        color: #fff;
+    }
+
+}
+
+.nav,
+.nav_m {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 27px;
+
+    .link_group {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 49px;
+    }
+
+    .nav_link {
+        font-family: "Just Me Again Down Here", sans-serif;
+        font-weight: 400;
+        font-size: 40px;
+        color: #fff;
+        padding-bottom: 20px;
+        padding-top: 8px;
+        line-height: 150%;
+
+        &:hover {
+            text-decoration: underline;
+
+        }
+
+        @media (max-width:768px) {
+
+            font-family: "Just Me Again Down Here", sans-serif;
+            font-weight: 400;
+            font-size: 40px;
+            text-align: center;
+            color: #fff;
+        }
+    }
+
+    .buy_btn {
+        font-family: "Just Me Again Down Here", sans-serif;
+        font-weight: 400;
+        font-size: 32px;
+        text-align: center;
+        color: #fff;
+        background: #f00;
+        line-height: 150%;
+        border-radius: 16px;
+        // width: 151px;
+        height: 77px;
+        padding-bottom: 20px;
+        padding-top: 8px;
+        padding-left: 8px;
+        padding-right: 8px;
+
+        &:hover {
+            filter: brightness(.8);
+        }
+
+        @media (max-width:768px) {
+            line-height: 1;
+        }
+    }
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    @media (max-width:768px) {
+        gap: 7px;
+        margin-bottom: 65px;
+
+    }
+}
+
+.title_center {
+    display: flex;
+    flex-direction: column;
+
+    .h1 {
+        font-family: "Just Me Again Down Here", sans-serif;
+        font-weight: 400;
+        font-size: 144px;
+        text-align: center;
+        color: #fff;
+
+        @media (max-width:768px) {
+            font-family: "Just Me Again Down Here", sans-serif;
+            font-weight: 400;
+            font-size: 51px;
+            text-align: center;
+            color: #fff;
+        }
+
+    }
+
+    .h2 {
+        font-family: "Just Me Again Down Here", sans-serif;
+        font-weight: 400;
+        font-size: 76px;
+        text-align: center;
+        color: #fff;
+        margin-bottom: 26px;
+        margin-top: -20px;
+        margin-right: -22px;
+
+        @media (max-width:768px) {
+            font-family: "Just Me Again Down Here", sans-serif;
+            font-weight: 400;
+            font-size: 30px;
+            text-align: center;
+            color: #fff;
+            margin-bottom: 0px;
+            margin-top: 0;
+        }
+    }
+
+}
+
+.title_img {
+    width: 232px;
+    height: 474px;
+    position: relative;
+
+    .mr {
+        position: absolute;
+        right: -78%;
+    }
+
+    @media (max-width:768px) {
+        position: relative;
+        border-radius: 28px;
+        width: 75px;
+        height: 75px;
+
+        .mr {
+            position: relative;
+            right: 0;
+            border-radius: 28px;
+            width: 75px;
+            height: 75px;
+        }
+    }
+}
+
+.line {
+    border-radius: 8px;
+    width: 602px;
+    height: 39px;
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.nav_m {
+    display: none;
+}
+
+.youtube_btn {
+    width: 68px;
+    height: 53px;
+
+    .img {
+        max-width: 68px;
+        height: 53px;
+    }
+}
+
+.mob {
+    display: none;
+}
+
+.btnsitems {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+    margin-bottom: 26px;
+
+    @media (max-width:768px) {
+        gap: 29px
+    }
+}
+
+@media (max-width:768px) {
+    .nav_m {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap: 27px;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .mob {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .desc {
+        display: none;
+    }
+
+    .line {
+        border-radius: 8px;
+        width: 338px;
+        height: 39px;
+    }
+}

@@ -1,0 +1,119 @@
+.blue {
+    background: #004aad;
+    position: relative;
+}
+
+.dollar {
+    position: absolute;
+    right: 0;
+    top: -26px;
+
+    @media (max-width:768px) {
+        // width: 247px;
+        height: 143px;
+        top: -79px;
+    }
+}
+
+.container {
+    padding: 77px 102px;
+
+    @media (max-width:768px) {
+        padding: 35px;
+    }
+}
+
+.h3 {
+    font-family: "Just Me Again Down Here", sans-serif;
+    font-weight: 400;
+    font-size: 99px;
+    color: #fff;
+    margin-bottom: 10px;
+
+    @media (max-width:768px) {
+
+        font-family: "Just Me Again Down Here", sans-serif;
+        font-weight: 400;
+        font-size: 60px;
+        text-align: center;
+        color: #fff;
+        margin-bottom: 30px;
+    }
+}
+
+.items {
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    gap: 45px;
+    margin-bottom: 40px;
+
+    @media (max-width:768px) {
+
+        flex-direction: column;
+
+    }
+}
+
+.col {
+    .h4 {
+        font-family: "Just Me Again Down Here", sans-serif;
+        font-weight: 400;
+        font-size: 44px;
+        color: #fff;
+        margin-bottom: 20px;
+
+        @media (max-width:768px) {
+            font-family: "Just Me Again Down Here", sans-serif;
+            font-weight: 400;
+            font-size: 38px;
+            text-align: center;
+            color: #fff;
+            margin-bottom: 15px;
+        }
+    }
+
+    .p {
+        font-family: "Long Cang", sans-serif;
+        font-weight: 400;
+        font-size: 30px;
+        color: #fff;
+
+        @media (max-width:768px) {
+
+            font-family: "Long Cang", sans-serif;
+            font-weight: 400;
+            font-size: 30px;
+            color: #fff;
+        }
+    }
+
+    .text_link {
+        text-decoration: underline;
+        text-decoration-skip-ink: none;
+        font-family: "Long Cang", sans-serif;
+        font-weight: 400;
+        font-size: 30px;
+        color: #fff;
+
+        &:hover {
+            filter: contrast(.8);
+        }
+    }
+}
+
+.center {
+    max-width: 340px;
+    margin: 0 auto;
+
+    @media (max-width:768px) {
+        max-width: 100%;
+    }
+
+    .col {
+        .p {
+            max-width: 340px;
+            text-align: center;
+        }
+    }
+}

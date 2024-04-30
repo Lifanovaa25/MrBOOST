@@ -1,0 +1,70 @@
+@font-face {
+  font-family: 'Montserrat';
+  src: local('Montserrat'),
+    url('./assets/fonts/Montserrat-Bold.woff2') format('woff2'),
+    url('./assets/fonts/Montserrat-Bold.woff') format('woff'),
+    url('./assets/fonts/Montserrat-Bold.ttf') format('ttf'),
+    url('./assets/fonts/Montserrat-Bold.eot') format('eot');
+
+}
+
+@font-face {
+  font-family: 'Raleway';
+  src: local('Raleway'),
+    url('./assets/fonts/Raleway-Bold.woff2') format('woff2'),
+    url('./assets/fonts/Raleway-Bold.woff') format('woff'),
+    url('./assets/fonts/Raleway-Bold.ttf') format('ttf'),
+    url('./assets/fonts/Raleway-Bold.eot') format('eot');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Raleway';
+  src: local('Raleway'),
+    url('./assets/fonts/Raleway-SemiBold.woff2') format('woff2'),
+    url('./assets/fonts/Raleway-SemiBold.woff') format('woff'),
+    url('./assets/fonts/Raleway-SemiBold.ttf') format('ttf'),
+    url('./assets/fonts/Raleway-SemiBold.eot') format('eot');
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'Raleway';
+  src: local('Raleway'),
+    url('./assets/fonts/Raleway-Medium.woff2') format('woff2'),
+    url('./assets/fonts/Raleway-Medium.woff') format('woff'),
+    url('./assets/fonts/Raleway-Medium.ttf') format('ttf'),
+    url('./assets/fonts/Raleway-Medium.eot') format('eot');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Raleway';
+  src: local('Raleway'),
+    url('./assets/fonts/Raleway-Regular.woff2') format('woff2'),
+    url('./assets/fonts/Raleway-Regular.woff') format('woff'),
+    url('./assets/fonts/Raleway-Regular.ttf') format('ttf'),
+    url('./assets/fonts/Raleway-Regular.eot') format('eot');
+  font-weight: 400;
+}
+
+:root {
+  --font-family: "Raleway", sans-serif;
+  --second-family: "Montserrat", sans-serif;
+  --text-color: #2d2d2f;
+  --gray-text: #727280;
+  --bg-color: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  color: var(--text-color);
+}
+
+body {
+  background-color: var(--bg-color);
+  font-family: "Just Me Again Down Here";
+}
